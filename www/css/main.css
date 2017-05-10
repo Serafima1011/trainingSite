@@ -1,0 +1,113 @@
+body {
+  margin-left: 30px;
+}
+
+/*-- CSS for labels --*/
+.header {
+  font-family: Times, Georgia, serif;
+}
+
+/*-- CSS for elements of radio button --*/
+.elements {
+  color: #1345A0;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: Arial sans-serif;
+  font-size: 22px;
+  color: #517FEA;
+}
+
+/*--CSS for input --*/
+input {
+  color: #5a5854;
+  background-color: #f2f2f2;
+  border: 1px solid #bdbdbd;
+  padding: 2px 2px 2px 8px;
+  border-radius: 2px;
+  display: inline;
+  background-repeat: no-repeat;
+  background-position: 8px 2px;
+}
+
+input#email {
+  background-image: url("..//sourse/images/email.png");
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+input#mobile {
+  background-image: url("..//sourse/images/mobile.png");
+  padding-left: 30px;
+}
+
+/*-- CSS for navbar --*/
+ul.navbar {
+  margin: -8px auto auto -25px;
+  border-top: 2px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  background: #f8f8f8;
+  text-align: left;
+  padding-left: 13px;
+}
+
+li.navbar {
+  display: inline-block;
+  padding: 15px;
+}
+
+.nav {
+  color: #555;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.nav:hover{
+  text-decoration: underline;
+}
+
+.nav-home {
+  background: #e7e7e7;
+  /*box-shadow: 5px 5px 0px -10px #88cc88;*/
+  /*border-radius: 4px;*/
+}
+
+
+/* -- CSS for tables --*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding 7px 10px 10px 10px;
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  text-align: left;
+  padding: 8px;
+  border-top: 1px solid #111111;
+  border-bottom: 2px solid #111111;
+}
+
+.table-total {
+  background: #E0F6F1;
+}
+
+.table-body {
+  border-bottom: 1px groove;
+}
+
+.table-cells {
+  border-left: 1px groove;
+}
+
+tr:hover {
+  background-color: #efefef;
+}

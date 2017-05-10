@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <title>Week1</title>
+    <link href="css_fortask1.css" type="text/css" rel="stylesheet"/>
+    <script src="..//js/main.js"></script>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset id="yourFace">
+        <legend>Your Face</legend>
+        <label for="photo">Your image: </label>
+        <input type="file" name="photo" id="photo" onchange="changePhoto(event)"/>
+        <br />
+        <label for="preview">Image preview</label>
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Your general Details</legend>
+
+        <label>Name</label>
+        <input type="text" placeholder="Your full name"/>
+        <br />
+
+        <label class="radio_and_checkBox">Gender</label>
+        <input type="radio" id="male" name="gender" checked="checked"/> Male
+        <input type="radio" id="female" name="gender"/> Femail
+        <br />
+
+        <label>Age</label>
+        <input type="text" value="18"/>
+        <br />
+
+        <label>Date of birthday</label>
+        <input type="date" />
+        <br  />
+
+        <label>Favorite color</label>
+        <input type="color" />
+        <br />
+
+        <label>Which country</label>
+        <input type="number"  />
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Indicators</legend>
+        <label>Height</label>
+        Short <input type="range" min="0" max="100" value="50" />Tall
+        <br />
+
+        <label>Salary</label>
+        Poor <input type="range" min="0" max="100" value="50" />Rich
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Contact Information</legend>
+        <label>Email</label>
+        <input type="email" />
+        <br />
+
+        <label>Mobile</label>
+        <input type="text" />
+        <br />
+
+        <label>Address</label>
+        <textarea name="address">Enter your address</textarea>
+        <br />
+
+        <label class="radio_and_checkBox">Method to contact us</label>
+        <input type="checkbox" name="contact" value="email"/>Email
+        <input type="checkbox" name="contact" value="watsapp"/>Whatsapp
+        <input type="checkbox" name="contact" value="in-app chat"/>In-app chat
+      </fieldset>
+
+      <table class="table">
+        <thead>
+          <th>
+            <td>Subject</td>
+            <td>Mark</td>
+          </th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Math</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>English</td>
+            <td>4</td>
+          </tr>
+        </tbody>
+      </table>
+      <input type="submit" value="Submit"/>
+    </form>
+  </body>
+</html

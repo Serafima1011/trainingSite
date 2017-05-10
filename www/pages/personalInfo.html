@@ -1,0 +1,111 @@
+<html>
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Your feedback</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link href="..//css/main.css" rel="stylesheet">
+
+  <!-- To ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- jQuery library -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+
+  <!-- Latest compiled JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+  <script src="../js/main.js"></script>
+</head>
+<body onload="greatingUser(); fillBirthday()">
+<!-- <body> -->
+  <ul class="navbar">
+    <li class="navbar"><a href="home.html" class="nav">Home</a></li>
+    <li class="navbar"><a href="aboutMe.html" class="nav">About me</a></li>
+    <li class="navbar nav-home"><a href="personalInfo.html" class="nav">Personal Info</a></li>
+  </ul>
+  <br /><br />
+
+  <!-- <h1>Your personal info</h1> -->
+  <!-- <div> -->
+    <form action="" method="post">
+      <label class="header">Name: <input type="text" name="name" id="name" maxlength="30" required="required" autofocus/></label>
+      <br><br>
+
+      <label class="header">Gender: </label>
+      <input type="radio" id="male" name="gender" value="Male" checked="checked" /> <el class="elements">Male</el>
+      <input type="radio" id="female" name="gender" value="Female" /> <el class="elements">Female</el>
+      <br><br>
+
+      <label class="header">Birthday: <input type="date" name="birthday" id="birthday"/></label>
+      <br><br>
+
+      <fieldset>
+        <legend class="header">Contact details</legend>
+        <label class="elements">Email:<br/><input type="email" id="email" name="email" /></label><br/>
+        <label class="elements">Mobile:<br/><input type="text" id="mobile" name="mobile" /></label></br>
+      </fieldset>
+      <br>
+  <!-- </div> -->
+
+    <label class="header">Your hobbies: </label>
+    <input type="checkbox" name="hobby" value="sport" /> <el class="elements">Sport</el>
+    <input type="checkbox" name="hobby" value="music" /> <el class="elements">Music</el>
+    <input type="checkbox" name="hobby" value="cooking" /> <el class="elements">Cooking</el>
+    <input type="checkbox" name="hobby" value="travelling" /> <el class="elements">Travelling</el>
+    <input type="checkbox" name="hobby" value="photo" /> <el class="elements">Photo</el>
+    <input type="checkbox" name="hobby" value="languages" /> <el class="elements">Languages</el>
+    <input type="checkbox" name="hobby" value="computer science" /> <el class="elements">Computer science</el>
+    <br><br>
+
+    <label class="header">Your favorite genre: </label>
+    <select name="favorite genre">
+      <option value="rock">Rock</option>
+      <option value="hip hop" selected="true">Hip hop</option>
+      <option value="classical">Classical</option>
+      <option value="pop">Pop</option>
+    </select>
+    <br><br>
+
+    <label class="header">Upload your favorite song: </label>
+    <input type="file" name="user-song" />
+    <input type="submit" value="Upload">
+    <br><br>
+
+    <label class="header">Find friends:<br/>
+      <input type="search" name="find" placeholder="Enter you friend's name"/>
+      <input type="submit" value="Find" />
+    </label>
+  </form>
+  <!-- <div class="container" id="nameBlock">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" onchange="checkName()" maxlength="50">
+      <!-- <input type="password" name="password" maxlength="30"> -->
+      <!-- <p id="nameError" style="color:red; visibility:hidden;">incorrect name</p> -->
+    <!-- </div> -->
+
+    <!-- <div class="form-group"> -->
+      <!-- <label for="email">E-mail:</label> -->
+      <!-- <input type="text" class="form-control" id="email"> -->
+    <!-- </div> -->
+
+    <!-- <div class="form-group"> -->
+      <!-- <label for="feedback">Feedback:</label> -->
+      <!-- <textarea class="form-control" rows="5" id="feedback">Enter your feedback...</textarea> -->
+    <!-- </div> -->
+
+    <!-- <button type="button" class="btn btn-success" onclick="example()">Send</button> -->
+  <!-- </div> -->
+
+<!-- src="https://www.google.ru/maps?q=moma+new+york&amp;output=embed" -->
+  <!-- <audio src="..//audio and video/song.mp3" autoplay controls></audio> -->
+  <br />
+  <iframe src="https://www.google.ru/maps?q=Krasnoobsk,+Novosibirsk+Oblast&amp;output=embed"
+          width="950"
+          height="350">
+  </iframe>
+  <br />
+
+</body>
+</html>
