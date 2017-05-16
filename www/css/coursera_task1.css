@@ -1,0 +1,23 @@
+fieldset {
+  background: lightyellow;
+  border: 4px solid green;
+  margin-bottom: 10px;
+  width: 720px;
+}
+
+label {
+  width: 180px;
+  display: inline-block;
+  text-align: right;
+  text-align: top;
+}
+
+.radio_and_checkBox {
+  width: auto;
+  text-indent: 20px;
+  text-shadow: 1px 1px 10px red;
+}
+
+.table {
+  border-style: outset;
+}

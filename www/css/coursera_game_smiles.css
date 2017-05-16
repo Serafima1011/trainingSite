@@ -1,0 +1,19 @@
+div {
+  position: absolute;
+  width:600px;
+  height:600px
+}
+
+div#left_side{
+  left: 10px;
+  /*border: 1px solid black;*/
+}
+
+div#right_side {
+  left: 610px;
+  border-left: 1px solid black;
+}
+
+img {
+  position: absolute;
+}
