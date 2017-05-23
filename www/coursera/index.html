@@ -3,11 +3,35 @@
     <link href="..//css/main.css" rel="stylesheet">
 </head>
 <body>
-  <ul class="navbar">
-    <li class="navbar nav-home"><a href="..//pages/home.html" class="nav">Home</a></li>
-    <li class="navbar"><a href="task1.html" class="nav">Task1</a></li>
-    <li class="navbar"><a href="squares_task2.html" class="nav">Squares</a></li>
-    <li class="navbar"><a href="play_smiles.html" class="nav">Smiles</a></li>
-  </ul>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="aboutMe.html">About me</a></li>
+            <li><a href="aboutMeBootstrap.html">About me Bootstrap</a></li>
+            <li><a href="personalInfo.html">Personal Info</a></li>
+            <li class="dropdown">
+              <a href="../coursera/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Coursera
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="../coursera/task1.html">Task1</a></li>
+                <li><a href="../coursera/squares_task2.html">Squares</a></li>
+                <li><a href="../coursera/play_smiles.html">Smiles</a></li>
+                <li><a href="../coursera/conFusion.html">conFusion</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
 </body>
 </html>
